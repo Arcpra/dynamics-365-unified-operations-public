@@ -168,26 +168,6 @@ In each of these folders, you can find snapshots of the steps that were performe
 
 ![Snapshot files](./media/use_rsa_tool_13.png)
 
-## Assignment
-
-### Scenario
-
-1. The product designer creates a new released product.
-2. The production manager initiates a production order to bring the stock level to two pieces.
-3. Manufacturing starts and ends the production order, and verifies that the on-hand quantity is two pieces.
-4. The sales team receives an order for four pieces of the new product. Therefore, the sales team updates the net requirements via the dynamic plan. Because no additional capacity is available, the default order policy is set to "buy instead of make." Therefore, a planned purchase order is created.
-5. The buyer adds a vendor, firms the planned purchase order, and then confirms the purchase order.
-6. When the goods that were purchased arrive at the store, the store operator searches the related purchase order and receives the goods. Because the order is now completed, goods can be picked and packed against the sales order.
-7. Finance posts the purchase invoice and sales invoice.
-
-The following illustration shows the flow for this scenario.
-
-![Flow for the demo scenario](./media/use_rsa_tool_14.png)
-
-The following illustration shows the business processes for this scenario in RSAT.
-
-![Business processes for the demo scenario](./media/use_rsa_tool_15.png)
-
 ## Strategy – Key learning
 
 ### Data
